@@ -2,7 +2,10 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
     <!-- 使用 Context 命名空间，在配置文件中开启相应的注解处理器，如果使用注解，这是必须有的 -->
     <!-- 虽然使用了 annotation 注解的方式，简化了 引用的相关配置，但是还是需要在 xml 文件中配置相应的 bean实例 -->
     <context:annotation-config/>

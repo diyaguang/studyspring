@@ -1,4 +1,6 @@
 import com.dygstudio.studyspring.annotation.AnnotationTest;
+import com.dygstudio.studyspring.aspectj.annotation.TestAnnotationAspectj;
+import com.dygstudio.studyspring.aspectj.xml.TestXmlAspectJ;
 import com.dygstudio.studyspring.assemble.AssembleTest;
 import com.dygstudio.studyspring.cglib.CglibTest;
 import com.dygstudio.studyspring.factorybean.ProxyFactoryBeanTest;
@@ -21,6 +23,8 @@ public class Main {
         //AnnotationTest.test();
         //JdkTest.test();
         //CglibTest.test();
-        ProxyFactoryBeanTest.test();
+        //ProxyFactoryBeanTest.test();
+        //TestXmlAspectJ.test();
+        TestAnnotationAspectj.test();
     }
 }
